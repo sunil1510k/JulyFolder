@@ -2,6 +2,13 @@ create account on github
 install Git ??https://git-scm.com/downloads
 
 
+If there error like : 
+""" Support for password authentication was removed on August 13, 2021. Please use a personal access token instead """
+
+
+https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
+https://levelup.gitconnected.com/fix-password-authentication-github-3395e579ce74
+
 
 
 
@@ -134,89 +141,4 @@ ex : git push origin main
 If you are Pushing from new folder where new git init was done then
 syntax : git push -f origin <branchName>
 ex : git push -f origin main
-
-
-
-
-github (Cloud)
-fork -> creating a copy from MASTER github account to YOUR guthub account
-Commit -> How  many changes have been done...
-fetch and upstream -> apply the changes of MASTER github to YOUR GITHUB
-Pull request --> Applying changes on Masters Main Files. (Forked account)
-Push --> Creating a copy from local to cloud
-Clone --> Creating a copy from cloud to local
-
-
-
-
-############### GIUT COMMANDS #######################
-ls => list down all the files
-pwd => present working directory
-cd .. --> Moving out of folder
-cd Path -> Move into folder
-mv "source folder" "destination folder"  -> move the file
-rmdir FolderName ==> remove the directory
-clear => to clear the screen
-
-
-
-Step4 : Working directory to local repo.
-git init
-git add f1.ext f2.ext f3.ext                 <==> git add .
-git commit -m "YOUR MESSAGE"
-
-Step 5 : Local System to Github account
-git push    <++> git push -f origin BranchName [main/ master]
-
-
-Step 6: FORKED ACCOUNT **
-pull request 
-
-
-
-## Task : 
-https://github.com/nitishvig007/Assignments---complex
-
-
-Upload your files to this Forked Account
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
