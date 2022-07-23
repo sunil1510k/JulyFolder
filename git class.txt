@@ -1,0 +1,222 @@
+create account on github
+install Git ??https://git-scm.com/downloads
+
+
+
+
+
+
+
+VCS - Verstion Control System
+
+1. Local VCS :  master is companys DB
+Problems : 
+1. Same placce
+2. if master goes down then all have to wait or maybe rework on the same
+3. if systems and master goes down all have to REWORK
+
+
+
+2. Centralised VSC :  master is companys Server and Dbs
+
+Advantage: 
+1. People can work at different place
+2. 
+
+Problems: 
+1. If server goes down, participants have to wait
+2. if server crashes, all have to rework
+3. participants have thier own WORK copy and on server
+4. if participants are interested then they can download all the work on their system
+
+
+3. Distributed VCS : 
+1. Project copy is available at their system and servers.
+2. if server as well as all individual systems goes down then data is lost.
+3. 
+
+
+
+
+Github 
+Repository -> Main Folder where all the activities are saved
+Branch -> sub folder under the repository
+
+
+1. Starred on some repository
+a. Keeping bookmarrk of the link only
+b. If url is no longer active then you have lost the data.
+
+
+2. Forked 
+a. Keeping bookmark of the MASTER link only and saving the COPY (activity) on your github
+b. 
+
+3. Pull request
+a. Sharing the file between MASTER and USERS
+b. File is only SAVED on your REPOSITIORY if you MERGE & CONFIRM Pull Request.
+
+4. Clone 
+a. copy of files from github account to local repository
+
+
+5. Push
+a. copy of files from local repository to github account 
+
+
+
+---------------------------------------------------------------------
+
+Account setup : 
+# adding github details to git
+
+1. git config --global user.name "User"
+2. git config --global user.email "User@gmail.com"
+3. git config --global user.password "125716845"
+
+Save the username and password permanently
+4. git config --global credential.helper store
+
+Check if details are stored
+-- show unsername and user email and password
+5. git config --global --list
+
+-- Source information + show unsername and user email and password
+5. git config --list --show-origin
+
+--------------------------------------------------------------------------------------------
+
+Clone : .git will be available by default here. SKIP the step og git init here while uploading the content
+git clone _________________________________.git
+ex : git clone https://github.com/sunil1510k/JulyFolder.git
+
+
+PUSH : copying from local to github
+1. Initialize the folder you like to upload the files
+
+command --> git init
+
+2. Working Directory to Staging Area
+Identify the files you like to upload
+
+This will help to upload only selective files
+command --> git add fileName.ext
+
+This will help to replace all the github files by your local filees
+command --> git add .
+
+3. staging area to local reposiroty
+
+command --> git commit
+command --> git commit -m "YourMessage"
+
+
+4. Make sure your BRANCH is correct.
+Syntax : git branch -m <Old> <New>
+ex : git branch -m master main
+
+
+5. moving from local to github
+
+a. whats the address ???
+git remote add origin ______________.git
+ex : git remote add origin https://github.com/sunil1510k/JulyFolder.git
+
+
+
+b. pushing :::::::::
+
+If you are Pushing from same folder which you have Cloned
+syntax : git push origin <branchName>
+ex : git push origin main
+
+
+If you are Pushing from new folder where new git init was done then
+syntax : git push -f origin <branchName>
+ex : git push -f origin main
+
+
+
+
+github (Cloud)
+fork -> creating a copy from MASTER github account to YOUR guthub account
+Commit -> How  many changes have been done...
+fetch and upstream -> apply the changes of MASTER github to YOUR GITHUB
+Pull request --> Applying changes on Masters Main Files. (Forked account)
+Push --> Creating a copy from local to cloud
+Clone --> Creating a copy from cloud to local
+
+
+
+
+############### GIUT COMMANDS #######################
+ls => list down all the files
+pwd => present working directory
+cd .. --> Moving out of folder
+cd Path -> Move into folder
+mv "source folder" "destination folder"  -> move the file
+rmdir FolderName ==> remove the directory
+clear => to clear the screen
+
+
+
+Step4 : Working directory to local repo.
+git init
+git add f1.ext f2.ext f3.ext                 <==> git add .
+git commit -m "YOUR MESSAGE"
+
+Step 5 : Local System to Github account
+git push    <++> git push -f origin BranchName [main/ master]
+
+
+Step 6: FORKED ACCOUNT **
+pull request 
+
+
+
+## Task : 
+https://github.com/nitishvig007/Assignments---complex
+
+
+Upload your files to this Forked Account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
